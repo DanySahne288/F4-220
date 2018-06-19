@@ -23,17 +23,17 @@ Next install "n" (https://www.npmjs.com/package/n)
 ### Install `tar`
 Because `n` uses `tar` with an option not available on BusyBox download and build a later version of the command.
 
-``wget https://ftp.gnu.org/gnu/tar/tar-1.30.tar.gz --no-check-version
+`wget https://ftp.gnu.org/gnu/tar/tar-1.30.tar.gz`
 
-tar vfxz tar-1.30.tar.gz``
+`tar vfxz tar-1.30.tar.gz`
 
 As a non-root user configure and make. Running configure as root will give a warning.
 
-``cd tar-1.30
+`cd tar-1.30`
 
-./configure
+`./configure`
 
-make``
+`make`
 
 
 I had to install as root though, due to not having write permission where it was installed.
