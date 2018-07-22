@@ -54,3 +54,4 @@ Check with `node -v` the current version.
 Time to upgrade NPM to the latest (6.1.0 as of writing).
 
 `npm install -g npm@latest`
+
